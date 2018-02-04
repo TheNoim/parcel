@@ -1,10 +1,11 @@
 const crypto = require('crypto');
 
 function md5(string) {
-  return crypto
+  /*return crypto
     .createHash('md5')
     .update(string)
-    .digest('hex');
+    .digest('hex');*/
+  return string;
 }
 
 module.exports = md5;
