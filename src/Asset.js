@@ -191,7 +191,7 @@ class Asset {
     }
 
     // Otherwise generate a unique name
-    return this.name + ext;
+    return this.name;
   }
 
   generateErrorMessage(err) {
