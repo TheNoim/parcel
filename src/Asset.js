@@ -191,7 +191,7 @@ class Asset {
     }
 
     // Otherwise generate a unique name
-    return md5(this.name) + ext;
+    return this.name + ext;
   }
 
   generateErrorMessage(err) {
